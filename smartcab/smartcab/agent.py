@@ -97,16 +97,8 @@ class LearningAgent(Agent):
         #   If it is not, create a dictionary in the Q-table for the current 'state'
         #   For each action, set the Q-value for the state-action pair to 0
 
-        # helper to create state string
-        def xstr(s):
-            if s is None:
-                return 'None'
-            else:
-                return str(s)
-        
-        state = xstr(waypoint) + "_" + inputs['light'] + "_" + xstr(inputs['left']) + "_" +  xstr(inputs['oncoming'])
-        if self.learning:
-            self.Q[state] = self.Q.get(state, {None:0.0, 'forward':0.0, 'left':0.0, 'right':0.0})
+        state = (waypoint,) + tuple(inputs[key] for key in ['light', 'oncoming', 'left'])
+
         return state
 
 
