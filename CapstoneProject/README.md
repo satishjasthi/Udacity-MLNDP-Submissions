@@ -19,15 +19,15 @@ Install Keras from [here](https://keras.io/) and Tensorflow from [here](https://
 References:
 
 Frame works:
-*Tensor flow: https://www.tensorflow.org/
-*Scikit learn: http://scikit-learn.org/stable/
-*Keras: https://keras.io/
+- Tensor flow: https://www.tensorflow.org/
+- Scikit learn: http://scikit-learn.org/stable/
+- Keras: https://keras.io/
 
 Research Papers:
-*Learning long-term dependencies with gradient descent is difficult by Y Bengio: 
+- Learning long-term dependencies with gradient descent is difficult by Y Bengio: 
  http://www-dsi.ing.unifi.it/~paolo/ps/tnn-94-gradient.pdf
 
 Blogs:
-*Understanding LSTM networks by Colah: http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+- Understanding LSTM networks by Colah: http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
-*Deep learning documentation: http://deeplearning.net/tutorial/lstm.html 
+- Deep learning documentation: http://deeplearning.net/tutorial/lstm.html 
