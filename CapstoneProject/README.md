@@ -2,8 +2,8 @@
 
 Overview:
 This project tries to predict the closing price of Google stock using Close price
-as a feature.The model uses LSTM and recurrent neural network to learn the fluctuations
-in the stock price.Furthermore Mean squared error is used as a cost function as well as
+as a feature.The model uses LSTM recurrent neural network to learn and predict the fluctuations
+in the stock price.Furthermore Mean squared error is used as a cost function and root mean squared error is used as
 an error metric.
 
 Dataset:
